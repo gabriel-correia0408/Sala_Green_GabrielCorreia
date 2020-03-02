@@ -20,22 +20,26 @@
 # Deve ser salvado com o nome do arquivo dobradura.py dentro da pasta teste_dobradura.
 # Deve ser executado o arquivo teste_de_dobradura.py e o mesmo deve aparecer a mensagem 'Teste Conculido com Sucesso!'
 
+#criando a classe
 class Dobradura:
 
     def get_dobrar(self,numero_dobradura):
         self.numero_dobradura = numero_dobradura
-        base_folha = 1
-        expoente_dobradura = self.numero_dobradura
+        if self.numero_dobradura == self.numero_dobradura *-1:
+            return False
+        elif self.numero_dobradura == str(self.numero_dobradura):
+            return False
+        else:
+            dobradura = 2
+            folha = dobradura
+            calculo = folha**self.numero_dobradura
+        return calculo
 
-        while count(self.numero_dobradura) <= expoente_dobradura:
-            for i in base_folha:
-                a = (i ** 2)
-            else:
-                'false'
-
-
-
-
+       # while count(self.numero_dobradura) <= expoente_dobradura:
+            #for i in base_folha:
+                #a = (i ** 2)
+            #else:
+                #'false'
 
 if __name__ == '__main__':
     a = Dobradura()
