@@ -6,11 +6,9 @@
 
 #Exemplo:
 class Cadastro:
-    lista = []
      def Nome_sobrenome(self):
          cad = str(input('Digite seu nome completo: '))
-        return cad.appende
-
+         print(f'{cad}')
 
      def Cad_Idade(self):
          idade = int(input('Digite sua idade: '))
