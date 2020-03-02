@@ -25,10 +25,15 @@ class Dobradura:
 
     def get_dobrar(self,numero_dobradura):
         self.numero_dobradura = numero_dobradura
-        if self.numero_dobradura == self.numero_dobradura *-1:
+
+        if numero_dobradura == str(numero_dobradura):
             return False
-        elif self.numero_dobradura == str(self.numero_dobradura):
+
+        elif numero_dobradura < 0:
             return False
+
+
+
         else:
             dobradura = 2
             folha = dobradura
