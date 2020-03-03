@@ -25,33 +25,34 @@
 #o único módo para poder ver oque na vrivél quando há os dois anderlines,seria
 #criando um método dentro da classe que fizesse isso,e depois chamar ele para
 #poder ver oque há dentro da variavél, sendo assim isso é um encapsulamento
+
+# class valores:
+#     def __init__(self):
+#         self.dados = {}
+#
+#     def inserir(self, id, nome):
+#         if 'valores' not in self.dados:
+#             self.dados ['valores'] =  {id, nome}
+#         else:
+#             self.dados['valores'].update({id: nome})
+#
+# vl = valores()
+# vl.inserir(20, 'GabrielCorreia')
+# print(vl.dados)
+
+
+
 class valores:
-    def __init__(self):
-        self.dados = {}
+   def __init__(self):
+       self.__dados = {}
 
     def inserir(self, id, nome):
-        if 'valores' not in self.dados:
-            self.dados ['valores'] =  {id, nome}
-        else:
-            self.dados['valores'].update({id: nome})
+       if 'valores' not in self.__dados:
+           self.__dados ['valores'] =  {id, nome}
+       else:
+           self.__dados['valores'].update({id: nome})
 
 vl = valores()
 vl.inserir(20, 'GabrielCorreia')
-print(vl.dados)
-
-
-
-#class valores:
-   # def __init__(self):
-       # self.__dados = {}
-
-    #def inserir(self, id, nome):
-       # if 'valores' not in self.__dados:
-           # self.__dados ['valores'] =  {id, nome}
-       # else:
-           # self.__dados['valores'].update({id: nome})
-
-#vl = valores()
-#vl.inserir(20, 'GabrielCorreia')
-#print(vl.__dados)
+print(vl.__dados)
 
