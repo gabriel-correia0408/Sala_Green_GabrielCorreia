@@ -20,9 +20,15 @@ class Pessoa:
     #lembrando que aonde contém o print deve ser  um return,para poder ver
     #a msg deve ter um método get, que será criado.
     def comer(self,alimento):
-        return (f'{self.nome} está comendo {alimento}')
-        self.comendo = True
+        if self.comendo:
+            return f'{self.nome} já está comendo'
 
-    def get_comer(self):
-        return
+
+        self.comendo = True
+        return (f'{self.nome} está comendo {alimento}')
+
+
+
+
+
 

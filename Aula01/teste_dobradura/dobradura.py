@@ -32,8 +32,6 @@ class Dobradura:
         elif numero_dobradura < 0:
             return False
 
-
-
         else:
             dobradura = 2
             folha = dobradura

@@ -21,3 +21,18 @@
 
 
 # crite testes para validar cada uma destas classes!
+
+class Circulo:
+    def __init__(self,cor,raio,material):
+        self.cor = cor
+        self.raio = raio
+        self.material = material
+
+    def trocar_Cor(self,cor):
+        pass
+
+    def get_Cor(self):
+        pass
+
+    def calculo_Area(self):
+        pass
