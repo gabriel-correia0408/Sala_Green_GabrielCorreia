@@ -6,6 +6,7 @@ circulo = Circulo('azul',10,'papel')
 raio = 10
 
 
+
 print('TESTE get_Cor')
 assert circulo.cor == circulo.get_Cor(), f'ERRO A cor : {cor} não está sendo passada para o objeto'
 #assert cor == circulo.get_Cor() f'ERRO a cor: {cor} não está seno passada para o objto '

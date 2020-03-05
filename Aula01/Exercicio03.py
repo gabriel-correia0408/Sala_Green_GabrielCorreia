@@ -28,11 +28,12 @@ class Circulo:
         self.raio = raio
         self.material = material
 
-    def trocar_Cor(self,cor):
+    def set_Cor(self,cor):
         pass
 
     def get_Cor(self):
         pass
 
-    def calculo_Area(self):
+    def calculo_area(self):
         pass
+
