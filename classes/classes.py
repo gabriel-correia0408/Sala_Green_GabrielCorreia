@@ -3,6 +3,10 @@
 # Uma classe é como um template aonde organiza os métodos que iram tratar os
 # objetos ou seja uma classe representa
 # um conjunto de objeto com suas caracteristicas afins.
+# e a classe é definição de um tipo.
+
+# os inputs não devm ser colocados nos métod ,um em cada sobre eles,deve ter
+# um método especifico para o input,para não ocorrer erros futuros
 
 #Exemplo:
 class Cadastro:

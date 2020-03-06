@@ -1,6 +1,6 @@
 # A herença na programação visa fazer um reaproveitamento decódigo
 #fazendo que uma classe "filha" herde os atributos de uma classe"mae"
-# como no exemplo a baxo,ea função "seper()" serve para chmar ou fazer
+# como no exemplo a baxo,ea função "super()" serve para chamar ou fazer
 #essa herença desses atributos da classe "mae",para a classe "filha".
 
 class Mae():
