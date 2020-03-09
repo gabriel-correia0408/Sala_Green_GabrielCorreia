@@ -1,5 +1,5 @@
-# A composição bascamente é uma boa escolha quando se trata
-# de um objeto que está dentro de outro de outro ou deve estar
+# A composição basicamente é uma boa escolha quando se trata
+# de um objeto que está dentro de outro ou deve estar
 #por exemplo quando uma classe mais simples "A" está dentro de
 #uma classe mais complexa "b"
 

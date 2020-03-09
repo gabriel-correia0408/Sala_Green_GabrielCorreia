@@ -15,7 +15,7 @@ class Endereco:
         # se p tipo "type" da varivél "nome" for igual a "str"
         #a varivél da classe "self.__cidade", vai receber o valor da variavél
         # do "cidade"  do método construtor "__init__"
-        if type(nome) == str:
+        if type(cidade) == str:
             self.__cidade = cidade
 
         #mesma lógica do código acima única diferença que muda o a varivél
@@ -24,7 +24,7 @@ class Endereco:
             self.__rua  = rua
 
         # mesma lógica de verificação dos códigos acima.
-        if type(numero) == int and > 0:
+        if type(numero) == int and numero > 0:
             self.__numero = numero
 
 
@@ -54,7 +54,7 @@ class Endereco:
         if type(rua) == str:
             self.__rua = rua
 
-    def verefica_numero(self,numero):
+    def verefica_numero(self,numero) -> int:
         if type(numero) == int:
             self.__numero = numero
 
