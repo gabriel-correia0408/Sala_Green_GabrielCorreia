@@ -27,7 +27,6 @@ class Endereco:
         if type(numero) == int and numero > 0:
             self.__numero = numero
 
-
     def get_cidade(self):
         return self.cidade
 

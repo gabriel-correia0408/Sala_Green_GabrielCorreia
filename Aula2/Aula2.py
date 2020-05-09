@@ -37,7 +37,6 @@ class Endereco:
     def set_cidade(self,cidade):
         self.cidae = cidade
 
-
     def get_bairro(self):
         return self.bairro
 
