@@ -1,8 +1,0 @@
-import unittest
-from p_teste.calculadora import soma
-class TestCalculadora(unittest.TestCase):
-    def test_soma_5_e_5_deve_retornar_10(self):
-        self.assertEqual(soma(5,5), 10)
-
-#sempre que criado uma classe de teste , no caso sempre que for criado um teste
-#seu nome deve ser começado com "test", caso contrário não será executado.
